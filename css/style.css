@@ -1,0 +1,620 @@
+/*head*/
+.looking-for-a-lollip {
+    position: absolute;
+    top:150px ;
+    left:220px ;
+    color: #31373D;
+    font-family: AktivGrotesk-Bold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    width: 489px;
+    text-align: left;
+    
+  }
+  .bodymain {
+    position: absolute;
+    top:304px ;
+    left:220px ;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 489px;
+    text-align: left;
+  }
+  .blue button{
+    position: absolute;
+    top:388px ;
+    left:215px ;
+    background-color: #0099FF;
+    border-radius: 3px;
+    width: 220px;
+    height: 48px;
+  }
+  .cta-text1 {
+    position: absolute;
+    top:13px ;
+    left:75px ;
+    color: #FFFFFF;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+  }
+  .outline button{
+    position: absolute;
+    top:388px ;
+    left:455px ;
+    background-color:white;
+    border: 2px solid #0099FF;
+    border-radius: 3px;
+    width: 222px;
+    height: 48px;
+  }
+  .cta-text2 {
+    position: absolute;
+    top:13px ;
+    left:6px ;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    width: 211px;
+    text-align: center;
+  }
+  .globus{
+    position: absolute;
+    top:150px ;
+    left:860px;
+    width:400px ;
+    height:331px ;
+  }
+/*body boxes*/
+.bg {
+    position: absolute;;
+    top:618px;
+    left:87px;
+    background-image: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%);
+    width: 1267px;
+    height: 409px;
+    
+}
+.rectangle {
+    position: absolute;
+    top:759px;
+    left:371px;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.05);
+    width: 698px;
+    height: 513px;
+    
+}
+.this-is-a-heading-in {
+    position: absolute;
+    top:653px;
+    left:621.5px;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    width: 216px;
+    height: 68px;
+  }
+/*compare*/
+.compare-pricing-toda {
+    position: absolute;
+    top:1357px;
+    left:595px ;  
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    width: 270px;
+    text-align: center;
+}
+.lorem-ipsum-is-simpl {
+    position: absolute;
+    top: 1380px;
+    left:506px ;  
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 449px;
+    text-align: center;
+}
+/*serving button*/
+.buttons button{
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+    width: 125px;
+    height: 46px;
+}
+.buttons button:hover {
+    border-color: #0099FF;
+    border-width: 3px;
+  }
+
+  
+.a25-serving {
+    position: absolute;
+    top:1462px;
+    left:470px;
+    color: #4A4A4A;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    
+}
+.b50-serving {
+    position: absolute;
+    top:1462px;
+    left:595px;
+    color: #4A4A4A;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+  }
+.c100-serving {
+    position: absolute;
+    top:1462px;
+    left:720px;
+    color: #4A4A4A;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+}
+.d200-serving {
+    position: absolute;
+    top:1462px;
+    left:845px;
+    color: #4A4A4A;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+}
+/*toggle*/
+.annual {
+    position: absolute;
+    top: 1552px;
+    left: 625px;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    width: 72px;
+    text-align: left;
+}
+.a50-off {
+    position: absolute;
+    top: 1572px;
+    left: 625px;
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 60px;
+    text-align: left;
+  }
+.monthly {
+    position: absolute;
+    top: 1552px;
+    left: 758px;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    width: 83px;
+    text-align: left;
+} 
+.switch { 
+    position: relative; 
+    display: inline-block; 
+    width: 60px; 
+    height: 34px; 
+} 
+ 
+ 
+.switch input { 
+    display: none; 
+} 
+ 
+ 
+.slider { 
+    position: absolute; 
+    cursor: pointer; 
+    top: 1558px; 
+    left: 693px; 
+    right: 0; 
+    bottom: 0; 
+    background-color: #ccc; 
+    -webkit-transition: .4s; 
+    transition: .4s; 
+
+    
+    border-radius: 7px;
+    opacity: 0.6388346354166666;
+    width: 44px;
+    height: 14px;
+} 
+.slider:before { 
+    position: absolute; 
+    content: ""; 
+    height: 24px; 
+    width: 24px; 
+    left: 0px; 
+    top: -4px;
+    background-color: #0099FF;
+     
+    -webkit-transition: .4s; 
+    transition: .4s; 
+
+   
+  border-radius: 100%;
+} 
+input:checked + .slider { 
+    background-color:rgb(17, 17, 17); 
+} 
+input:focus + .slider { 
+    box-shadow: 0 0 1px #2196F3; 
+} 
+input:checked + .slider:before { 
+    -webkit-transform: translateX(26px); 
+    -ms-transform: translateX(26px); 
+    transform: translateX(26px); 
+} 
+
+ 
+.slider.round { 
+    border-radius: 34px; 
+} 
+.slider.round:before { 
+    border-radius: 50%; 
+}
+
+  /*card*/
+  .card {
+    position: absolute;
+    top: 1629px;
+    left: 381px;  
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+    width: 476px;
+    height: 200px;
+  }
+  .card-line {
+    position: absolute;
+    top: 1627px;
+    left: 612px;  
+    background-color: #F9F9F9;
+    width: 2px;
+    height: 202px;
+  }  
+  .lollipop {
+    position: absolute;
+    top:41px ;
+    left:44px;  
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
+  .icecandy {
+    position: absolute;
+    top:41px ;
+    left:266px;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
+  .a100 {
+    position: absolute;
+    top:97px ;
+    left:44px; 
+    color: #3D3C31;
+    font-family: AktivGrotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    border:hidden;
+  }
+  .b200 {
+    position: absolute;
+    top:97px ;
+    left:267px; 
+    color: #3D3C31;
+    font-family: AktivGrotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+  .per-month1 {
+    position: absolute;
+    top:112px ;
+    left:122px ;  
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    width: 78px;
+    text-align: left;
+  }
+.per-month2{
+    position: absolute;
+    top:112px ;
+    left:344px ;  
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    width: 78px;
+    text-align: left;
+  }
+.for-serving1 {
+    position: absolute;
+    top:129px ;
+    left:44px ;  
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 156px;
+    text-align: left;
+  }
+.for-serving2{
+    position: absolute;
+    top:129px ;
+    left:267px ;  
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 156px;
+    text-align: left;
+  }
+  .card2 {
+    position: absolute;
+    top: 1614px;
+    left:845px ;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+    width: 214px;
+    height: 230px;
+}
+.your-savings-with-lo {
+    position: absolute;
+    top: 50px;
+    left:23px ;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+  }
+.aa100 {
+    position: absolute;
+    top:118px ;
+    left:23px ;
+    color: #0099FF;
+    font-family: AktivGrotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+.per-month3 {
+    position: absolute;
+    top:160px ;
+    left:24px ;
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    width: 78px;
+    text-align: left;
+  }
+    /*footer*/
+  .heres-what-our-cust {
+    position: absolute;
+    top:1979px ;
+    left:523px; 
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    width: 449px;
+    height: 34px;
+  }
+  .path {
+    position: absolute;
+    top:2020.02px ;
+    left:653.04px; 
+    width:20px ;
+    height:20px ;
+    font-size: 60px;
+    color: #0099FF;
+    
+  }
+  .colon{
+    position: absolute;
+    top:2090.02px ;
+    left:650.04px; 
+    width:40px ;
+    height:30px ;
+  }
+  .lorem-ipsum-is-simple {
+    position: absolute;
+    top:2088px ;
+    left:691px ;
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 22px;
+    width: 325px;
+    height: 112px;
+    text-align: left;
+  }
+.profile{
+    position: absolute;
+    top:2105px ;
+    left:370px ; 
+    width:280px ;
+    height:270px ;
+  }
+  .raja-ram {
+    position: absolute;
+    top: 2211px;
+    left: 687px;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    width:88px ;
+    height: 34px;
+  }
+  .tip-world {
+    position: absolute;
+    top:2243px ;
+    left:687px ;
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    width:88px ;
+    height: 34px;
+}
+.oval {
+    position: absolute;
+    top:2351px ;
+    left:701px ;
+    background-color: #0099FF;
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+}
+.oval-copy1 {
+    position: absolute;
+    top:2351px ;
+    left:724px ;
+    background-image: linear-gradient(221.9deg, #D5E2E9 0%, #EAEEF1 100%);
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+  }
+  .oval-copy2 {
+    position: absolute;
+    top:2351px ;
+    left:747px ;
+    background-image: linear-gradient(221.9deg, #D5E2E9 0%, #EAEEF1 100%);
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+  }
+  .oval-copy3 {
+    position: absolute;
+    top:2351px ;
+    left: 770px;
+    background-image: linear-gradient(221.9deg, #D5E2E9 0%, #EAEEF1 100%);
+    border-radius: 100%;
+    width: 9px;
+    height: 9px;
+  }
+  .loved-by-users-reco-copy-2 {
+    position: absolute;
+    top:2540px ;
+    left:333px ; 
+    color: #31373D;
+    font-family: AktivGrotesk;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    width: 369px;
+    height: 68px;
+}
+.lorem-ipsum-is-simplee {
+    position: absolute;
+    top:2624px ;
+    left:333px ; 
+    color: #8B8E91;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 338px;
+    height: 86px;
+    text-align: left;
+}
+.shape button{
+    position: absolute;
+    top:2746px ;
+    left:333px ; 
+    background-color: #0099FF;
+    border-radius: 3px;
+    width: 220px;
+    height: 48px;
+}
+.primary-cta {
+    position: absolute;
+    top:14px ;
+    left:62px ; 
+    color: #FFFFFF;
+    font-family: AktivGrotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+.back{
+    position: absolute;
+    top:2567px ;
+    left:896px ; 
+    width: 303.86px;
+    height: 335px;
+    padding-bottom: 200px;
+
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <meta name="description" content="trial of the web pages">
+            <meta name="keyword" content="web page, content">
+            <meta name="author" content="geetha">
+            <title>Web page |welcome</title>
+            <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body style="width: 1440px; height: 2939px;">
+            <script>
+                    
+                    function myFunction1() {
+                    var a= document.getElementById("mybtn1").value;
+                    func(x=a);}
+                    function myFunction2() {
+                    var b= document.getElementById("mybtn2").value;
+                    func(x=b);}
+                    function myFunction3() {
+                    var c= document.getElementById("mybtn3").value;
+                    func(x=c);}
+                    function myFunction4() {
+                    var d= document.getElementById("mybtn4").value;
+                    func(x=d);}
+                    function func(){
+                        
+                    var checks = document.getElementById("switchValue");
+                        
+                        var str = '';
+                        var str1= '';
+                        var str2= '';
+                        document.getElementById("fs1").innerHTML="For "+x+" Serving";
+                        document.getElementById("fs2").innerHTML="For "+x+" Serving";
+                        
+                        if(checks.checked == true){
+                            str= 1*x;
+                            str1=2*x;
+                            str2=(str1-str);
+                            document.getElementById("p1").innerHTML="Per Month";
+                            document.getElementById("p2").innerHTML="Per Month";
+                            document.getElementById("p3").innerHTML="Per Month";
+                           
+                        }
+                        else{
+                            str=0.5*x;
+                            str1=1*x;
+                            str2=(str1-str);
+                            document.getElementById("p1").innerHTML="Per Annum";
+                            document.getElementById("p2").innerHTML="Per Annum";
+                            document.getElementById("p3").innerHTML="Per Annum";
+                           
+                        }
+                        
+                        document.getElementById("lol").innerHTML= "$"+str;
+                        document.getElementById("ice").innerHTML="$"+str1;
+                        document.getElementById("diff").innerHTML="$"+str2;
+                       
+
+                    }
+                    
+
+                    
+                    
+                  
+                    
+            </script>
+         <section id="head">
+                <div class="looking-for-a-lollip">
+                    <p><b>Looking for a<br> 
+                    lollipop alternative?</b></p>
+                </div>
+                <div class="bodymain">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting<br>industry. Lorem Ipsum has been the industry's standard dummy<br>text ever since the 1500s.</p>
+                </div>
+                <div class="blue">
+                    <button class="cta-text1">Primary CTA</button>
+                </div>
+                <div class="outline">    
+                    <button class="cta-text2">Secondary CTA</button>
+                </div>
+                <div>
+                    <img src="./img/Test/globe.png" class="globus">
+                </div>
+            </section>
+            <section id="box1">
+                <div style="position:relative;top:0;left:0;">
+                    <img src="./img/Test/BG/png/BG.png" class="bg">   
+                        <h1 class="this-is-a-heading-in "><b>This is a heading in<br>
+                                two lines</b></h1>
+                        <img src="./img/Test/Group 6/png/Group 6.png" class="rectangle">
+                </div>
+            </section>
+            <section id="compare">
+                <div style="position:absolute;">
+                    <h1 class="compare-pricing-toda">Compare Pricing Today!</h1>
+                    <h6 class="lorem-ipsum-is-simpl">Lorem Ipsum is simply dummy text of the printing and <span style="color: #0099ff;">typesetting.</span> </h6>
+                </div>
+            </section>           
+                    
+            
+            <div class="buttons">
+                <button onclick="myFunction1()" id="mybtn1" value="25" class="a25-serving">25 Serving</button>
+                <button onclick="myFunction2()" id="mybtn2" value="50" class="b50-serving">50 Serving</button>
+                <button onclick="myFunction3()" id="mybtn3" value="100" class="c100-serving">100 Serving</button>
+                <button onclick="myFunction4()" id="mybtn4" value="200" class="d200-serving">200 Serving</button>
+            </div>    
+            <section id="toggle">
+                            <div >
+                              <h1 class="annual">Annual</h1>
+                              <h1 class="a50-off">50% Off</h1>
+                              <label class="switch"> 
+                                     <input type="checkbox" id="switchValue" onclick="func()" > 
+                                      <div class="slider round"></div> 
+                                      
+                             </label>  
+                              <h1 class="monthly">Monthly</h1> 
+                            </div>
+            </section>   
+            <section class="card" >
+           
+                    <div >
+                         <h2 class="lollipop"><b>lollipop</b></h2>
+                         <h2 class="icecandy"><b>Icecandy</b></h2> 
+                         <h1  class="a100" id="lol"><b></b></h1>
+                         <h1 class="b200" id="ice"><b></b></h1>
+                         <h4 class="per-month1" id="p1"></h4>
+                         <h4 class="per-month2" id="p2"></h4>
+                        <h4 class="for-serving1" id="fs1"></h4>
+                        <h4 class="for-serving2" id="fs2"></h4>
+                    </div>
+                  
+                 </section> 
+                 <section class="card-line"></section>
+                 <section class="card2">
+                    <div>
+                         <h1 class="your-savings-with-lo"><b>Your savings<br>
+                              with lollipop</b></h1>
+                          <h1 class="aa100" id="diff"><b></b></h1>
+                          <h1 class="per-month3" id="p3"><b></b></h1>    
+                     </div>
+          
+                 </section>     
+                 <section id="footer">
+                        <div>
+                            <h6 class="heres-what-our-cust "><b>Here’s what our customers have to say </b></h6>
+                            <img src="./img/Test/images.png" class="profile">
+                            <img src="./img/Test/colon.png" class="colon">
+                             <p class="lorem-ipsum-is-simple "><b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</b></p>
+                            <h1 class="raja-ram "><b>Raja Ram</b></h1>
+                            <h1 class="tip-world">Tip World</h1>
+                        </div>
+                        
+                    </section>
+                    <div class="oval"></div>
+                    <div class="oval-copy1"></div>
+                    <div class="oval-copy2"></div>
+                    <div class="oval-copy3"></div>
+                    <section>   
+                        <div>
+                            <h1 class="loved-by-users-reco-copy-2"><b>Loved by users, 
+                                 recommended by experts</b></h1>
+                            <p class="lorem-ipsum-is-simplee">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="shape">
+                            <button class="primary-cta" >Primary CTA</button>
+                         </div>
+                         <div>
+                             <img src="./img/Test/Group 4/png/Group 4.png" class="back">
+                         </div>
+                    </section> 
+                        
+    </body>
+</html>    
